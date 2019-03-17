@@ -76,6 +76,14 @@ const geoMarks = {
       {
       "position": "41.579672,2.5509549",
       "title": "<b>Merceria La Troca</b><hr /><b>Riera Bisbe Pol 116, Arenys de Mar</b><br /><a target=_blank href=\"https://maps.google.com/maps/search/\@41.579672,2.5509549\">Obrir a Google Maps</a>"
+    },
+     {
+      "position": "41.5348421,2.2150054",
+      "title": "<b>Casal Popular El Tabaran</b><hr /><b>Carrer de Berenguer III, 162, Mollet del Vallès</b><br /><a target=_blank href=\"https://maps.google.com/maps/search/\@41.5350482,2.215424\">Obrir a Google Maps</a>"
+    },
+     {
+      "position": "42.011146,2.0266423",
+      "title": "<b>Taverna El Caminet</b><hr /><b>Carrer Bruc, 35, Prats de Lluçanès</b><br /><a target=_blank href=\"https://maps.google.com/maps/search/\@42.011146,2.0266423\">Obrir a Google Maps</a>"
     }
   ]
 };
