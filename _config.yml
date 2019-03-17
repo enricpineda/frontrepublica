@@ -24,12 +24,15 @@ twitter:
   username: Front_Republica
   card: summary
 logo: /img/fr_mini.png
+encoding: utf-8
 
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-ical-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

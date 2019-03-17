@@ -22,9 +22,12 @@ layout: default
       <p><a href="https://pirates.cat/bloc/7-000-avals-per-a-portar-pirates-de-catalunya-a-les-eleccions-generals-espanyoles-del-28a-com-signar/" target="_blank">Llegeix aquí les instruccions</a> per signar corresctament el teu aval.</p>
     </div>
     <div class="cell large-auto">
-      <h2 class="text-center">Donacions</h2>
-      <p>Necessitarem suport econòmic per poder afrontar la campanya i aconseguir els nostres objectius.</p>
-      <p>Vols saber com fer-ho? Aviat penjarem les instruccions per fer-nos arribar el teu donatiu.</p>
+      <h2 class="text-center">Agenda</h2>
+      <ul>
+        {% ical url: https://calendar.google.com/calendar/ical/dario.im_4ja7n9v81e0rg4hvo10629cels%40group.calendar.google.com/public/basic.ics %}
+        <li>{{ event.summary }}: {{ event.start_time }} | {{ event.location }}</li>
+        {% endical %}
+      </ul>
     </div>
   </div>
 </div>
