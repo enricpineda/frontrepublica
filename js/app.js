@@ -9,7 +9,7 @@ const geoMarks = {
   "Barcelona": [
     {
       "position": "41.6166541,0.6206359",
-      "title": "<b>Rock &amp; Vins</b><hr /><b>Carrer Panera, 5, 25002 Lleida</b><br /><a target=_blank href=\"https://maps.google.com/maps/search/Rock &amp; Vins/@41.6166541,0.6206359\">Obrir a Google Maps</a>"
+      "title": "<b>Epap Bar</b><hr /><b>Carrer Panera, 5, 25002 Lleida</b><br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.6166541,0.6206359\">Obrir a Google Maps</a>"
     },
     {
       "position": "41.4350282,2.1682971",
@@ -24,7 +24,7 @@ const geoMarks = {
       "title": "<b>Ateneu Popular i Independentista La Iaia</b><hr /><b>Carrer Jacint Verdaguer, 14, 08902. Hospitalet de Llobregat</b><br />De dilluns a dissabte<br />Desde les 18.00 a 21.00<br />Diumenge tancat<br /><a target=_blank href=\"https://maps.google.com/maps/search/Ateneu Popular i Independentista La Iaia/@41.3664528,2.1256128\">Obrir a Google Maps</a>"
     },
     {
-      "position": "41.378068,2.1413302",
+      "position": "41.3780543,2.1413874",
       "title": "<b>Espai Basset</b><hr /><b> Carrer de l'Elisi 20 de Barcelona</b><br />Obert de Dilluns a Dissabte<br />Només tardes de 18.00 a 21.00<br /><a target=_blank href=\"https://maps.google.com/maps/search/Espai Basset/@41.378068,2.1413302\">Obrir a Google Maps</a>"
     },
     {
@@ -84,6 +84,46 @@ const geoMarks = {
      {
       "position": "42.011146,2.0266423",
       "title": "<b>Taverna El Caminet</b><hr /><b>Carrer Bruc, 35, Prats de Lluçanès</b><br /><a target=_blank href=\"https://maps.google.com/maps/search/\@42.011146,2.0266423\">Obrir a Google Maps</a>"
+    },
+     {
+      "position": "41.230075,0.5486593",
+      "title": "<b>Cerveseria Dresden</b><hr /><b>Av. de Catalunya, 16, Flix</b><br /><a target=_blank href=\"https://maps.google.com/maps/search/\@41.230075,0.5486593\">Obrir a Google Maps</a>"
+    },
+     {
+      "position": "40.5986482,0.4428078",
+      "title": "<b>Pub Glops</b><hr /><b>Carrer Guifré, 26, Ulldecona</b><br /><a target=_blank href=\"https://maps.google.com/maps/search/\@40.5986482,0.4428078\">Obrir a Google Maps</a>"
+    },
+      {
+      "position": "41.5374676,2.1168129",
+      "title": "<b>Centre Cívic Sant Oleguer</b><hr /><b>Carrer de Sol i Padrís 93, Sabadell</b><br /><a target=_blank href=\"https://maps.google.com/maps/search/\@41.5374676,2.1168129\">Obrir a Google Maps</a>"
+    },
+
+     {
+      "position": "41.4932188,2.1346183",
+      "title": "<b>Local Compromís per Cerdanyola</b><hr /><b>C/ Pintor Togores 42, Cerdanyola del Vallès</b><br />Si noo està obert, es poden deixar a la bústia amb el logo de CxC<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.4932188,2.1346183\">Obrir a Google Maps</a>"
+    },
+
+     {
+      "position": "41.4915989,2.1379718",
+      "title": "<b>Plaça Abat Oliva</b><hr /><b>Cerdanyola del Vallès</b><br />De dilluns a dijous, de 10 a 2 hores i de 16 a 18 hores<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.4915989,2.1379718\">Obrir a Google Maps</a>"
+    }
+      ,
+
+     {
+      "position": "41.5721014,2.2293384",
+      "title": "<b>Perruqueria Rínxols</b><hr /><b>Av. Lluís Companys, 25, Parets del Vallès</b><br />De 9:30 a 13 hores, i de 15 a 19 hores<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.5721014,2.2293384\">Obrir a Google Maps</a>"
+    }
+      ,
+
+     {
+      "position": "41.12106,1.2506506",
+      "title": "<b>Fruites i verdures Ton</b><hr /><b>Carrer de Florenci Vives 6, Tarragona</b><br />De 9:30 a 13 hores, i de 15 a 19 hores<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.12106,1.2506506\">Obrir a Google Maps</a>"
+    }
+      ,
+
+     {
+      "position": "41.7300081,1.8177942",
+      "title": "<b>Espai CAT</b><hr /><b>Carrer de Lleida 10, Manresa</b><br />De 9 a 19 hores<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.7300081,1.8177942\">Obrir a Google Maps</a>"
     }
   ]
 };
