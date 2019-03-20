@@ -80,6 +80,16 @@ const geoMarks = {
       "position": "41.6441645,2.7413412",
       "title": "<b>Ateneu El Rovell</b><hr /><b>Carrer de Mar, 77, 08380 Malgrat de Mar</b><br />De 10 a 13 hores<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.6441645,2.7413412\">Obrir a Google Maps</a>"
     }
+      ,
+      {
+      "position": "41.6130637,2.6572868",
+      "title": "<b>Cafeteria Casa Granell</b><hr /><b>Carrer de Jovara, 121, 08370 Calella</b><br />De 8 a 22 hores<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.6130637,2.6572868\">Obrir a Google Maps</a>"
+    }
+      ,
+      {
+      "position": "41.6162511,2.6582127",
+      "title": "<b>La Tasca de la Vasca</b><hr /><b>Carrer de Sant Jaume, 130, 08370 Calella</b><br />De 9 a 16 hores<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.6162511,2.6582127\">Obrir a Google Maps</a>"
+    }
 
   ],
   "Girona": [
@@ -118,6 +128,21 @@ const geoMarks = {
     {
       "position": "42.2682984,2.9545769",
       "title": "<b>Bar La Cate</b><hr /><b>Ronda Rector Aroles, 4. Figueres</b><br />https://barlacate.cat<br /><a target=_blank href=\"https://maps.google.com/maps/search/Bar La Cate/@42.2682984,2.9545769\">Obrir a Google Maps</a>"
+    }
+      ,
+    {
+      "position": "42.02619,2.8760843",
+      "title": "<b>Teatre l'Ateneu</b><hr /><b>Plaça Estatut, 1, 17460 Celrà</b><br />Dimecres 20 i dijous 21<br />De 19 a 21 h<br /><a target=_blank href=\"https://maps.google.com/maps/search/@42.02619,2.8760843\">Obrir a Google Maps</a>"
+    }
+      ,
+    {
+      "position": "42.1815704,2.485006",
+      "title": "<b>Carrer de St Rafael</b><hr /><b>Olot</b><br />Dimecres 20, de 11 a 13h, i de 15 a 17:30h<br /><a target=_blank href=\"https://maps.google.com/maps/search/@42.1815704,2.485006\">Obrir a Google Maps</a>"
+    }
+      ,
+    {
+      "position": "42.1815704,2.485006",
+      "title": "<b>Carrer de St Rafael</b><hr /><b>Olot</b><br />Dimecres 20, de 11 a 13h, i de 15 a 17:30h<br /><a target=_blank href=\"https://maps.google.com/maps/search/@42.1815704,2.485006\">Obrir a Google Maps</a>"
     }
   ],
     "Tarragona":[
