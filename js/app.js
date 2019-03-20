@@ -90,6 +90,16 @@ const geoMarks = {
       "position": "41.6162511,2.6582127",
       "title": "<b>La Tasca de la Vasca</b><hr /><b>Carrer de Sant Jaume, 130, 08370 Calella</b><br />De 9 a 16 hores<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.6162511,2.6582127\">Obrir a Google Maps</a>"
     }
+      ,
+      {
+      "position": "41.6163,2.0852613",
+      "title": "<b>Mercat municipal de Castellar del Vallès</b><hr /><b>Plaça Major, s/n, 08211 Castellar del Vallès</b><br />Divendres 22<br />De 17:30 a 19:30 hores<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.6163,2.0852613\">Obrir a Google Maps</a>"
+    }
+      ,
+      {
+      "position": "41.3860019,2.1801606",
+      "title": "<b>Ciutat Vella</b><hr /><b>Carrer del Rec 27, Barcelona</b><br />Dimecres 20<br />De 18 a 20 hores<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.3860019,2.1801606\">Obrir a Google Maps</a>"
+    }
 
   ],
   "Girona": [
