@@ -125,6 +125,16 @@ const geoMarks = {
       "position": "41.4055249,2.1598677",
       "title": "<b>Metro Joanic</b><hr /><b>Plaça Joanic</b><br />Divendres 22<br />De 17 a 20h<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.4055249,2.1598677\">Obrir a Google Maps</a>"
     }
+      ,
+      {
+      "position": "41.544,1.8895811",
+      "title": "<b>Olesa de Montserrat</b><hr /><b>Carrer de Salvador Casas</b><br />Dimecres 20 i dijous 21<br />De 10 a 12h i de 18 a 20h<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.544,1.8895811\">Obrir a Google Maps</a>"
+    }
+      ,
+      {
+      "position": "41.5413137,1.8926317",
+      "title": "<b>Olesa de Montserrat</b><hr /><b>Rambla Catalunya</b><br />Divendres 22<br />De 10 a 12h i de 18 a 20h<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.5413137,1.8926317\">Obrir a Google Maps</a>"
+    }
 
   ],
   "Girona": [
