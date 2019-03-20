@@ -175,6 +175,11 @@ const geoMarks = {
       "position": "41.5052808,2.3436674",
       "title": "<b>Premià de Dalt</b><hr /><b>Carretera d'enllaç 46, Premià de Dalt</b><br />Dimecres 20, de 18 a 20h<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.5052808,2.3436674\">Obrir a Google Maps</a>"
     }
+      ,
+      {
+      "position": "41.4293457,2.1595281",
+      "title": "<b>Horta-Guinardó</b><hr /><b>Carrer del Tajo 37, Barcelona</b><br />Dijous 21, de 18 a 20h<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.4293457,2.1595281\">Obrir a Google Maps</a>"
+    }
 
   ],
   "Girona": [
