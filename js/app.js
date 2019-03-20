@@ -117,8 +117,8 @@ const geoMarks = {
     }
       ,
       {
-      "position": "41.4038509,2.1759447",
-      "title": "<b>Plaça de Sants</b><hr /><b>Plaça de Sants</b><br />Dimecres 20<br />A partir de les 17h<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.4038509,2.1759447\">Obrir a Google Maps</a>"
+      "position": "41.3759033,2.1333072",
+      "title": "<b>Plaça de Sants</b><hr /><b>Plaça de Sants</b><br />Dimecres 20<br />A partir de les 17h<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.3759033,2.1333072\">Obrir a Google Maps</a>"
     }
 ,
       {
