@@ -14,6 +14,31 @@ const geoMarks = {
       "position": "41.6473494,1.1376317",
       "title": "<b>El laberint</b><hr /><b>Carrer del Carme, Tàrrega</b><br />De dimecres 20 a divendres 22<br />De 10 a 12h i de 17 a 20h<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.6473494,1.1376317\">Obrir a Google Maps</a>"
     }
+      ,
+      {
+      "position": "41.6140895,0.6243216",
+      "title": "<b>Paradeta al carrer</b><hr /><b>PLaça Sant Francesc, Lleida</b><br />De dimecres 20 a divendres 22<br />De 18 a 20h<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.6140895,0.6243216\">Obrir a Google Maps</a>"
+    }
+      ,
+      {
+      "position": "41.631193,0.8901493",
+      "title": "<b>Casal Popular l'Arreu</b><hr /><b>Carrer del Palau, 34, 25230 Mollerussa</b><br />Divendres 22<br />De 18 a 20:30h<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.631193,0.8901493\">Obrir a Google Maps</a>"
+    }
+      ,
+      {
+      "position": "41.6692465,1.2716837",
+      "title": "<b>Pub La Bombolla</b><hr /><b>Rambla de Lluís Sanpere, 22, 25200 Cervera</b><br />De dimecres 20 a divendres 22<br />De 15 a 03h<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.6692465,1.2716837\">Obrir a Google Maps</a>"
+    }
+      ,
+      {
+      "position": "41.7898371,0.8060256",
+      "title": "<b>Bar La Rosaleda</b><hr /><b>Plaça Pau Casals 1</b><br />De dimecres 20 a divendres 22<br />De 07 a 00h<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.7898371,0.8060256\">Obrir a Google Maps</a>"
+    }
+      ,
+      {
+      "position": "41.52137,0.8675313",
+      "title": "<b>Cerveseria O'Brothers</b><hr /><b>Carrer del Marquès d'Olivart 30</b><br />De dimecres 20 a divendres 22<br />De 10 a 12h i de 17 a 20h<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.52137,0.8675313\">Obrir a Google Maps</a>"
+    }
   ],
   "Barcelona": [
 
