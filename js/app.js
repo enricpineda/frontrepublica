@@ -9,6 +9,11 @@ const geoMarks = {
       "title": "<b>Ateneu La Baula</b><hr /><b>Carrer del Nord, 4, 25007. LLeida</b><br />De dilluns a divendres<br />De 9.00 a 23.00<br />Dissabtes de 12.00 a 23.00<br />Diumenge tancat<br /><a target=_blank href=\"https://maps.google.com/maps/search/Ateneu La Baula/@41.6188116,0.6301967\">Obrir a Google Maps</a>",
       "position": "41.6188116,0.6301967"
     }
+       ,
+      {
+      "position": "41.6473494,1.1376317",
+      "title": "<b>El laberint</b><hr /><b>Carrer del Carme, Tàrrega</b><br />De dimecres 20 a divendres 22<br />De 10 a 12h i de 17 a 20h<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.6473494,1.1376317\">Obrir a Google Maps</a>"
+    }
   ],
   "Barcelona": [
 
@@ -99,6 +104,26 @@ const geoMarks = {
       {
       "position": "41.3860019,2.1801606",
       "title": "<b>Ciutat Vella</b><hr /><b>Carrer del Rec 27, Barcelona</b><br />Dimecres 20<br />De 18 a 20 hores<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.3860019,2.1801606\">Obrir a Google Maps</a>"
+    }
+      ,
+      {
+      "position": "41.4240992,2.1761648",
+      "title": "<b>Metro Maragall</b><hr /><b>Cantonada Passeig Maragall amb C/ Ramon Albó</b><br />Dimecres 20<br />De 18 a 20 hores<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.4240992,2.1761648\">Obrir a Google Maps</a>"
+    }
+      ,
+      {
+      "position": "41.4038523,2.1912656",
+      "title": "<b>UPF Campus Poblenou</b><hr /><b>C/ Roc Boronat 138</b><br />Dimecres 20 i dijous 21<br />De 9 a 19 hores<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.4038523,2.1912656\">Obrir a Google Maps</a>"
+    }
+      ,
+      {
+      "position": "41.4038509,2.1759447",
+      "title": "<b>Plaça de Sants</b><hr /><b>Plaça de Sants</b><br />Dimecres 20<br />A partir de les 17h<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.4038509,2.1759447\">Obrir a Google Maps</a>"
+    }
+,
+      {
+      "position": "41.4055249,2.1598677",
+      "title": "<b>Metro Joanic</b><hr /><b>Plaça Joanic</b><br />Divendres 22<br />De 17 a 20h<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.4055249,2.1598677\">Obrir a Google Maps</a>"
     }
 
   ],
