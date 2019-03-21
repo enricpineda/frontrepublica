@@ -177,8 +177,8 @@ const geoMarks = {
     }
       ,
       {
-      "position": "41.4293457,2.1595281",
-      "title": "<b>Horta-Guinardó</b><hr /><b>Carrer del Tajo 37, Barcelona</b><br />Dijous 21, de 18 a 20h<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.4293457,2.1595281\">Obrir a Google Maps</a>"
+      "position": "41.42952,2.1597533",
+      "title": "<b>Horta-Guinardó</b><hr /><b>Carrer del Tajo 37, Barcelona</b><br />Dijous 21, de 18 a 20h<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.42952,2.1597533\">Obrir a Google Maps</a>"
     }
 
   ],
