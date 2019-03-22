@@ -180,6 +180,26 @@ const geoMarks = {
       "position": "41.42952,2.1597533",
       "title": "<b>Horta-Guinardó</b><hr /><b>Carrer del Tajo 37, Barcelona</b><br />Dijous 21, de 18 a 20h<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.42952,2.1597533\">Obrir a Google Maps</a>"
     }
+      ,
+      {
+      "position": "41.4452054,2.1797783",
+      "title": "<b>Teràpies Bea</b><hr /><b>Carrer del Molí 98, HOrta Guinardó</b><br />Divendres 22 de 14:30 a 22h<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.4452054,2.1797783\">Obrir a Google Maps</a>"
+    }
+      ,
+      {
+      "position": "41.3839867,2.1275687",
+      "title": "<b>Mercat de Les Corts</b><hr /><b>Travessera de les Corts, 215, Barcelona</b><br />Dissabte 23 de 11 a 14h<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.3839867,2.1275687\">Obrir a Google Maps</a>"
+    }
+      ,
+      {
+      "position": "41.3749386,2.1416967",
+      "title": "<b>Mercat d'Hostafrancs'</b><hr /><b>Carrer de la Creu Coberta 93, Barcelona</b><br />Dissabte 23 de 11 a 14h<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.3749386,2.1416967\">Obrir a Google Maps</a>"
+    }
+      ,
+      {
+      "position": "41.4233664,2.1785277",
+      "title": "<b>MOLSA</b><hr /><b>Carrer de Garcilaso 191</b><br />De 10 a 14h i de 17 a 20h<br /><a target=_blank href=\"https://maps.google.com/maps/search/@41.4233664,2.1785277\">Obrir a Google Maps</a>"
+    }
 
   ],
   "Girona": [
