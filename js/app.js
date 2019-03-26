@@ -285,8 +285,10 @@ const geoMarks = {
     ]
 };
 
-$('input#botoEnvia').click( function() {
-    $.post( 'http://canpineda.cat/mailer_fr.php', $('form#mailvoluntaris').serialize(), function(data) {
-         alert(data);
-       });
+$('input#botoEnvia').click( function(event) {
+    event.preventDefault();
+    $.post( 'http://canpineda.club/mailer_fr.php', $('form#mailvoluntaris').serialize(), function(data) {
+               }, "json");
+    $("#mailvoluntaris").hide();
+    $("#missatgeMerci").show();
 });
