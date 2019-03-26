@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<div class="grid-x">
+  <div class="cell"><img src="/img/fr_mini.png" class="float-center"/></div>
+</div>
+<div class="grid-container">
+  <div class="grid-x grid-margin-x">
+    <div class="medium-9 cell"><h2 class="text-center">Voluntaris</h2>
+
+        <p>Vols apuntar-te com a voluntari? Omple el següent formulari i ajuda'ns amb la nostra campanya!</p>
+
+        <form>
+
+            <label for="nom">Nom:<br />
+            <input type="text" name="nom" id="nom" placeholder="Nom" required></label>
+            <br /><br /><label for="nom">Cognom:<br />
+            <input type="text" name="cognom" id="cognom" placeholder="Cognom" required></label>
+        <br /><br /><label for="Data de naixement">Data de naixement:<br />
+            <input type="date" name="datanaixement" id="datanaixement" required></label>
+            <label for="Correu electrònic">Correu electrònic<br />
+            <input type="email" name="email" id="email" placeholder="Correu@servidor.com" required></label>
+            <br /> <br />
+            <label for="Telèfon">Telèfon:<br />
+            <input type="tel" name="telefon" id="telefon" required></label>
+            <label for="Localitat">Localitat o barri on vols participar:<br />
+            <input type="text" name="territorial" id="territorial" placeholder="INdica el barri o localitat" required></label>
+            <label for="Disponibilitat">Quina disponibilitat tens?<br /><br />
+            Entre setmana:<br /><input type="checkbox" name="dispo[]" value="Mati entre setmana"> Matins<br/>
+            <input type="checkbox" name="dispo[]" value="Tarda entre setmana"> Tardes<br />
+            <input type="checkbox" name="dispo[]" value="Vespre entre setmana"> Vespres<br />
+                <br />Caps de setmana<br />
+            <input type="checkbox" name="dispo[]" value="Matins findes"> Matins<br />
+            <input type="checkbox" name="dispo[]" value="Tardes findes"> Tardes<br />
+            <input type="checkbox" name="dispo[]" value="Vespres findes"> Vespres<br /></label>
+        </form>
+    </div>
+      <div class="medium-3 cell">Política</div>
+  </div>
+</div>
+
+<p></p>
+<div class="grid-container">
+  <div class="grid-x grid-margin-y">
+    <div class="cell large-auto"><a href="https://twitter.com/front_republica"><img src="img/twitter.svg" class="float-center social"/></a></div>
+    <div class="cell large-auto"><a href="https://facebook.com/FrontRepublica"><img src="img/facebook.svg" class="float-center social"/></a></div>
+    <div class="cell large-auto"><a href="https://instagram.com/front_republica"><img src="img/instagram.svg" class="float-center social"/></a></div>
+  </div>
+</div>
+<script src="/js/vendor/jquery.js"></script>
+<script src="/js/vendor/what-input.js"></script>
+<script src="/js/vendor/foundation.js"></script>
+<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+<script src="/js/app.js"></script>
