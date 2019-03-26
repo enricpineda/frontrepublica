@@ -1,4 +1,4 @@
-$(document).foundation()
+$(document).foundation();
 const geoMarks = {
   "Lleida": [
     {
