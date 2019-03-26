@@ -292,3 +292,12 @@ $('input#botoEnvia').click( function(event) {
     $("#mailvoluntaris").hide();
     $("#missatgeMerci").show();
 });
+
+$("#privat").click(function () {
+            if ($(this).is(":checked")) {
+                $("#botoEnvia").show();
+
+            } else {
+                $("#botoEnvia").hide();
+            }
+        });
