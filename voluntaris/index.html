@@ -11,7 +11,7 @@ layout: default
 
         <p>Vols apuntar-te com a voluntari? Omple el següent formulari i ajuda'ns amb la nostra campanya!</p>
 
-        <form action="http://canpineda.club/mailer_fr.php" method="post">
+        <form id="mailvoluntaris">
 
             <label for="nom">Nom:<br />
             <input type="text" name="nom" id="nom" placeholder="Nom" required></label>
@@ -34,7 +34,7 @@ layout: default
             <input type="checkbox" name="dispo[]" value="Matins findes"> Matins<br />
             <input type="checkbox" name="dispo[]" value="Tardes findes"> Tardes<br />
             <input type="checkbox" name="dispo[]" value="Vespres findes"> Vespres<br /></label>
-            <input type="submit" name="submit" value="Enviar" class="button">
+            <input type="submit" name="submit" id="botoEnvia" value="Enviar" class="button">
         </form>
     </div>
       <div class="medium-3 cell">Política</div>
