@@ -15,20 +15,41 @@ layout: default
         <p>Vols apuntar-te com a apoderat? Omple el següent formulari i ajuda'ns el 28-A!</p>
 
         <form id="mailvoluntaris">
-
-            <label for="nom">Nom:<br />
+            <label for="nom">Nom (tal com està al DNI):<br />
             <input type="text" name="nom" id="nom" placeholder="Nom" required></label>
-            <label for="nom">Cognom:<br />
-            <input type="text" name="cognoms" id="cognoms" placeholder="Cognom" required></label>
-            <label for="Data de naixement">Data de naixement:<br />
+            <label for="nom">Cognoms (tal com estan al DNI):<br />
+            <input type="text" name="cognoms" id="cognoms" placeholder="Cognoms" required></label>
+            <label for="dni">DNI:<br />
+            <input type="text" name="dni" id="dni" required></label>
+            <label for="datanaixement">Data de naixement:<br />
             <input type="date" name="datanaixement" id="datanaixement" required></label>
-            <label for="Correu electrònic">Correu electrònic<br />
-            <input type="email" name="email" id="email" placeholder="Correu@servidor.com" required></label>
+            <label for="professio">Professió:<br />
+            <input type="text" name="professio" id="professio" required></label>
+            <label for="domicili">Domicili:<br />
+            <input type="text" name="domicili" id="domicili" required></label>
+            <div class="grid-container full">
+              <div class="grid-x grid-margin-x">
+                <div class="medium-4 cell">
+                  <label for="municipi">Municipi:<br />
+                  <input type="text" name="municipi" id="municipi" required></label>
+                </div>
+                <div class="medium-4 cell">
+                  <label for="codipostal">Codi postal:<br />
+                  <input type="text" name="codipostal" id="codipostal" required></label>
+                </div>
+                <div class="medium-4 cell">
+                  <label for="provincia">Província:<br />
+                  <input type="text" name="provincia" id="provincia" required></label>
+                </div>
+              </div>
+            </div>
+            <label for="Correu electrònic">Correu electrònic:<br />
+            <input type="email" name="email" id="email" placeholder="correu@servidor.com" required></label>
             <label for="Telèfon">Telèfon:<br />
             <input type="tel" name="telefon" id="telefon" required></label>
             <label for="Localitat">Localitat o barri on vols participar:<br />
             <input type="text" name="territorial" id="territorial" placeholder="Indica el barri o localitat" required></label>
-            <label for="Col·legi">A quin col·legi electoral vols ser apoderat?:<br />
+            <label for="Col·legi">A quin col·legi electoral vols ser apoderat?<br />
             <input type="text" name="colegi" id="colegi" placeholder="Escriu el nom del col·legi electoral" required></label>
             <label for="Privacitat"><p style="font-weight: bold;">Accepto la política de privacitat (està al costat del formulari): <input type="checkbox" name="privat" id="privat" value="yes" required></p></label>
             <input type="submit" name="submit" id="botoEnvia" value="Enviar" class="button">
