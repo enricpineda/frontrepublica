@@ -107,7 +107,7 @@ h1, h2, h3, h4,h5,h6 {
 }
 .centradissim {
     width: 50%;
-  height: 70%;
+  height: 80%;
   overflow: auto;
   margin: auto;
   position: absolute;
@@ -125,6 +125,7 @@ h1, h2, h3, h4,h5,h6 {
 }
 .centradissim p {
     color: white;
+    margin: 1em 0;
 }
 .botoblanc {
     background-color: white;
@@ -150,7 +151,21 @@ h1, h2, h3, h4,h5,h6 {
     position:relative;
    margin-bottom: 2em;
     height: 700px;
+        background-image: url(/img/portada_mobil.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
 }
+    .centradissim {
+        width: auto;
+    }
+    .centradissim img {
+        width: 70%;
+        height: auto;
+    }
+    .centradissim h1 {
+        margin: 1em 0 2em 0;
+    }
     .menutop2 {
         background-color: black;
     }
