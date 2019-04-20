@@ -1,94 +1,99 @@
 @font-face {
-    font-family:megabold;
-    src: url(/fonts/gobold_bold.otf);
+  font-family: megabold;
+  src: url(/fonts/gobold_bold.otf);
 }
 a {
-    color: #df3c75;
+  color: #df3c75;
 }
 a:hover {
-    color: #df3c75;
+  color: #df3c75;
 }
 body {
-    Font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-h1, h2, h3, h4,h5,h6 {
-    font-family: megabold, sans-serif;
-    font-weight: 700;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: megabold, sans-serif;
+  font-weight: 700;
 }
 
 #menumobil {
-    z-index: 1000;
+  z-index: 1000;
 }
 
 .social {
-    width: 32px;
-    height: auto;
+  width: 32px;
+  height: auto;
 }
 
 #map {
-    width: 100%;
-    height: 400px;
+  width: 100%;
+  height: 400px;
 }
 
 #missatgeMerci {
-    display: none;
+  display: none;
 }
 #botoEnvia {
-    display: none;
+  display: none;
 }
 
 .top-bar {
-    background-color: black;
+  background-color: black;
 }
 
 .menutop {
-    padding: 1em 0;
-    border-bottom: 1px solid #999;
-
+  padding: 1em 0;
+  border-bottom: 1px solid #999;
 }
 .menutop2 {
-    position: absolute;
-    padding: 1em 0;
-    border-bottom: 1px solid #999;
-    width: 100%;
-    z-index: 1000;
+  position: absolute;
+  padding: 1em 0;
+  border-bottom: 1px solid #999;
+  width: 100%;
+  z-index: 1000;
 }
 .menutop2 a {
-    color: white;
+  color: white;
 }
 #llistamenu {
-    list-style-type: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
 #llistamenu li {
-    display: inline;
-    margin: 0 1em;
+  display: inline;
+  margin: 0 1em;
 }
 .logo_portada {
-    width: 50%;
-    height: auto;
-    margin: 1em 0.5em;
+  width: 50%;
+  height: auto;
+  margin: 1em 0.5em;
 }
 .presen {
-    position:relative;
-   margin-bottom: 2em;
-    height: 700px;
+  position: relative;
+  margin-bottom: 2em;
+  height: 700px;
 }
 .presen video {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-
+  width: 100%;
+  height: auto;
+  overflow: hidden;
 }
 .videopresen {
-    position: absolute;
-    top: 0; left:0;
-    width: 100%; height: 700px;
-    z-index: -1;
-    overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 700px;
+  z-index: -1;
+  overflow: hidden;
 }
 .presen .ent {
   position: absolute;
@@ -97,7 +102,7 @@ h1, h2, h3, h4,h5,h6 {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: rgba(28,31,39, 0.6)
+  background: rgba(28, 31, 39, 0.6);
 }
 
 .ent {
@@ -106,84 +111,88 @@ h1, h2, h3, h4,h5,h6 {
   position: absolute;
 }
 .centradissim {
-    width: 50%;
+  width: 50%;
   height: 80%;
   overflow: auto;
   margin: auto;
   position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
-    text-align: center;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
 }
 .centradissim img {
-    width: 25%;
-    height: auto;
-    padding: 2em;
+  width: 25%;
+  height: auto;
+  padding: 2em;
 }
 .centradissim h1 {
-    font-family: megabold;
-    color: white;
+  font-family: megabold;
+  color: white;
 }
 .centradissim p {
-    color: white;
-    margin: 1em 0;
+  color: white;
+  margin: 1em 0;
 }
 .botoblanc {
-    background-color: white;
-    color: black;
-    text-decoration: none;
-    padding: 1em;
-    margin: 2em;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  padding: 1em;
+  margin: 2em;
 }
 .centrat {
-    margin: 2em 0 0 0;
+  margin: 2em 0 0 0;
 }
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .videopresen {
     position: absolute;
-    top: 0; left:0;
-    width: 100%; height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     z-index: -1;
     overflow: hidden;
-}
-    .presen {
-    position:relative;
-   margin-bottom: 2em;
-    height: 700px;
-        background-image: url(/img/portada_mobil.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-}
-    .centradissim {
-        width: auto;
-    }
-    .centradissim img {
-        width: 70%;
-        height: auto;
-    }
-    .centradissim h1 {
-        margin: 1em 0 2em 0;
-    }
-    .menutop2 {
-        background-color: black;
-    }
   }
-
+  .presen {
+    position: relative;
+    margin-bottom: 2em;
+    height: 700px;
+    background-image: url(/img/portada_mobil.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .centradissim {
+    width: auto;
+  }
+  .centradissim img {
+    width: 70%;
+    height: auto;
+  }
+  .centradissim h1 {
+    margin: 1em 0 2em 0;
+  }
+  .menutop2 {
+    background-color: black;
+  }
+}
 
 .section-nav {
-    border: 1px solid #df3c75;
-    margin: 0;
-    margin-bottom: 1em;
-    padding: 1.25em;
+  border: 1px solid #df3c75;
+  margin: 0;
+  margin-bottom: 1em;
+  padding: 1.25em;
 }
 
 .section-nav li {
-    margin-left: 1em;
+  margin-left: 1em;
 }
 
 .embedded-video {
-    object-fit: cover;
-    height: 315px !important;
+  object-fit: cover;
+  height: 315px !important;
 }
