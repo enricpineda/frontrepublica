@@ -10,14 +10,7 @@ layout: base
   <div class="menutop2" id="barra_superior">
     <div class="grid-container">
       <div class="grid-x">
-        <div class="cell large-auto text-center"><a href="/">Inici</a></div>
-        <div class="cell large-auto text-center"><a href="/manifest/">Manifest</a></div>
-        <div class="cell large-auto text-center"><a href="/apoderats/">Fes-te
-            apoderat!</a></div>
-        <div class="cell large-auto text-center"><a href="/contacta/">Contacta</a></div>
-        <div class="cell large-auto text-center"><a href="/empaperem/">Empaperem</a></div>
-        <div class="cell large-auto text-center"><a href="/agenda/">Actes</a></div>
-        <div class="cell large-auto text-center"><a href="/faqs/">FAQS</a></div>
+        {% include main-menu.html %}
       </div>
     </div>
   </div>
@@ -25,8 +18,8 @@ layout: base
   <div class="videopresen show-for-medium">
     <video autoplay loop muted>
       <source src="/video/inici_campanya.mp4" type="video/mp4">
-    </video></div>
-
+    </video>
+  </div>
   <div class="ent">
     <div class="centradissim">
       <img src="/img/logofr_blanc.svg" />
