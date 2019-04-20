@@ -2,110 +2,91 @@
 layout: base
 ---
 <div class="presen">
-  <div class="title-bar" data-responsive-toggle="barra_superior" data-hide-for="medium">
-  <button class="menu-icon" type="button" data-toggle id="menumobil"></button>
-  <div class="title-bar-title">Menú</div>
-</div>
-
-<div class="menutop2" id="barra_superior">
-<div class="grid-container">
-  <div class="grid-x">
-  <div class="cell large-auto text-center"><a href="/">Inici</a></div>
-      <div class="cell large-auto text-center"><a href="/manifest/">Manifest</a></div>
-  <!--<div class="cell large-auto text-center">Candidatures</div>-->
-  <div class="cell large-auto text-center"><a href="/apoderats/">Fes-te apoderat!</a></div>
-  <!--<div class="cell large-auto text-center">Premsa</div>-->
-  <div class="cell large-auto text-center"><a href="/contacta/">Contacta</a></div>
-       <div class="cell large-auto text-center"><a href="/empaperem/">Empaperem</a></div>
-      <div class="cell large-auto text-center"><a href="/agenda/">Actes</a></div>
-      <div class="cell large-auto text-center"><a href="/faqs/">FAQS</a></div>
-</div>
-</div>
+  <div class="title-bar" data-responsive-toggle="barra_superior"
+    data-hide-for="medium">
+    <button class="menu-icon" type="button" data-toggle id="menumobil"></button>
+    <div class="title-bar-title">Menú</div>
+  </div>
+  <div class="menutop2" id="barra_superior">
+    <div class="grid-container">
+      <div class="grid-x">
+        <div class="cell large-auto text-center"><a href="/">Inici</a></div>
+        <div class="cell large-auto text-center"><a href="/manifest/">Manifest</a></div>
+        <div class="cell large-auto text-center"><a href="/apoderats/">Fes-te
+            apoderat!</a></div>
+        <div class="cell large-auto text-center"><a href="/contacta/">Contacta</a></div>
+        <div class="cell large-auto text-center"><a href="/empaperem/">Empaperem</a></div>
+        <div class="cell large-auto text-center"><a href="/agenda/">Actes</a></div>
+        <div class="cell large-auto text-center"><a href="/faqs/">FAQS</a></div>
+      </div>
     </div>
-    <div class="show-for-small-only"></div>
-<div class="videopresen show-for-medium">
+  </div>
+  <div class="show-for-small-only"></div>
+  <div class="videopresen show-for-medium">
     <video autoplay loop muted>
+      <source src="/video/inici_campanya.mp4" type="video/mp4">
+    </video></div>
 
-    <source src="/video/inici_campanya.mp4" type="video/mp4">
-  </video></div>
-
-    <div class="ent">
-<!--
-    <div id="diagonal"></div>
--->
-<!--    <div id="content">-->
-        <div class="centradissim">
-<img src="/img/logofr_blanc.svg" />
-        <h1>front republicà: ruptura i república</h1>
-            <p class="show-for-medium">
-
-Poble Lliure, Som Alternativa i Pirates de Catalunya, com a organitzacions republicanes, que tenen com a objectiu la defensa dels interessos populars, profundament compromeses en la lluita actual pel dret d'autodeterminació i contra la repressió, hem decidit articular una candidatura que permeti presentar batalla també en aquesta convocatòria d'eleccions.<br /></p>
-            <p><a href="#" class="botoblanc" data-open="videoinici">Veure vídeo!</a></p>
-            <div class="reveal" id="videoinici" data-reveal>
-                <div class="flex-video"><video width="1024" height="768" controls>
-    <source src="/video/inici_campanya.mp4" type="video/mp4">
-  </video></div></div>
-        </div>
-
-    </div>
-
-    </div>
-
-
-<!--
-<div class="grid-container">
-<div class="grid-x">
-  <div class="medium-5 cell"><img src="/img/logofr.svg" class="logo_portada"/></div>
-    <div class="medium-7 cell"><div class="centrat"><p><a href="http://www.poblelliure.cat/"><strong>Poble Lliure</strong></a>, <a href="http://www.somalternativa.cat/"><strong>Som Alternativa</strong></a> i <a href="https://pirates.cat"><strong>Pirates de Catalunya</strong></a>, com a organitzacions republicanes, que tenen com a objectiu la defensa dels interessos populars, profundament compromeses en la lluita actual pel dret d'autodeterminació i contra la repressió, hem decidit articular una candidatura que permeti presentar batalla també en aquesta convocatòria d'eleccions.</p>
-      <a href="/docs/manifest.pdf" class="button text-center">Llegeix el nostre manifest</a></div></div>
-</div></div>
-<div class="grid-container">
-  <div class="grid-x grid-margin-x grid-margin-y">
-
-    <div class="cell large-auto">
-     <img src="img/avals_finals.jpg" />
+  <div class="ent">
+    <div class="centradissim">
+      <img src="/img/logofr_blanc.svg" />
+      <h1>front republicà: ruptura i república</h1>
+      <p class="show-for-medium">
+        Poble Lliure, Som Alternativa i Pirates de Catalunya, com a
+        organitzacions republicanes, que tenen com a objectiu la defensa dels
+        interessos populars, profundament compromeses en la lluita actual pel
+        dret d'autodeterminació i contra la repressió, hem decidit articular una
+        candidatura que permeti presentar batalla també en aquesta convocatòria
+        d'eleccions.<br /></p>
+      <p><a href="#" class="botoblanc" data-open="videoinici">Veure vídeo!</a></p>
+      <div class="reveal" id="videoinici" data-reveal>
+        <div class="flex-video"><video width="1024" height="768" controls>
+            <source src="/video/inici_campanya.mp4" type="video/mp4">
+          </video></div></div>
     </div>
   </div>
 </div>
-<p></p>
--->
 <div class="grid-container">
   <div class="grid-x grid-margin-x grid-margin-y">
-
     <div class="cell medium-6">
-        <!--
-      <h2 class="text-center">Agenda</h2>
-      <table class="stack">
-        <tbody>
-        {% ical url: https://calendar.google.com/calendar/ical/dario.im_4ja7n9v81e0rg4hvo10629cels%40group.calendar.google.com/public/basic.ics only_future: true %}
-        <tr><td><dl><dt>{{ event.summary }}</dt><dd><strong>On:</strong> {{ event.location }}</dd><dd><strong>Inici:</strong> {{ event.start_time }}</dd><dd><strong>Final:</strong> {{ event.end_time }}</dd></dl></td></tr>
-        {% endical %}
-        </tbody>
-      </table>-->
-        <h2>Novetats</h2>
-        <p><strong><a href="front_republica_paraules_sanchez_junqueras.html">Front Republicà sobre les paraules de Jordi Sànchez i Oriol Junqueras</a></strong></p>
-
+      <h2>Novetats</h2>
+      <p><strong><a href="front_republica_paraules_sanchez_junqueras.html">Front
+            Republicà sobre les paraules de Jordi Sànchez i Oriol Junqueras</a></strong></p>
     </div>
-
-      <div class="cell medium-6">
+    <div class="cell medium-6">
       <h2 class="text-center">Donatius</h2>
-          <img src="img/porquet_petit.jpg" style="width: 100%; height: auto;" />
-          <p>La campanya electoral serà llarga i necessitarem diners per dur-la a terme. Ens ajudes amb un donatiu? <strong>Instruccions a sota del formulari!</strong></p>
-          <script src="https://donorbox.org/widget.js" paypalExpress="false"></script><iframe src="https://donorbox.org/embed/donacions-per-campanya-elecccions-generals" height="685px" width="100%" style="max-width:500px; min-width:310px; max-height:none!important" seamless="seamless" name="donorbox" frameborder="0" scrolling="no" allowpaymentrequest></iframe>
-          <p>Per motius aliens a la nostra voluntat, el sistema només permet fer el tràmit en castellà, us posem unes breus indicacions en català. Front Republicà apostem per la plena normalització de la llengua catalana com a eina de cohesió.</p>
-          <p><strong>Instruccions per fer un donatiu:</strong></p>
-          <ul>
-          <li>Escolliu la quantitat. Pot ser una quantitat prefixada o bé una quantitat que decidiu vosaltres.</li>
-              <li>Escolliu just a sota de la quantitat si voleu fer el donatiu un sol cop o de forma mensual.</li>
-              <li>Feu click al botó marcat com a "Siguiente"</li>
-              <li>Ompliu les dades del formulari que us apareixerà a continuació. Tots els camps (nom i cognom, correu electrònic, país, adreça, codi postal, ciutat, estat / provincia i NIF) són obligatoris,</li>
-              <li>Marqueu la casella d'acceptació de les condicions d'ús i feu click al botó blau marcat com "Siguiente"</li>
-              <li>Introduïu al formulari següent les dades de la vostra targeta de crèdit.</li>
-              <li>Opcionalment, marqueu la casella si voleu afegir a la vostra donació les despeses de processament addicionals. Si no ho feu, es descomptaran aquests diners de la vostra donació.</li>
-              <li>Feu click al botó blau i haureu donat!</li>
-
-          </ul>
-      </div>
-
+      <img src="img/porquet_petit.jpg" style="width: 100%; height: auto;" />
+      <p>La campanya electoral serà llarga i necessitarem diners per dur-la a
+        terme. Ens ajudes amb un donatiu? <strong>Instruccions a sota del
+          formulari!</strong></p>
+      <script src="https://donorbox.org/widget.js" paypalExpress="false"></script><iframe
+        src="https://donorbox.org/embed/donacions-per-campanya-elecccions-generals"
+        height="685px" width="100%" style="max-width:500px; min-width:310px;
+        max-height:none!important" seamless="seamless" name="donorbox"
+        frameborder="0" scrolling="no" allowpaymentrequest></iframe>
+      <p>Per motius aliens a la nostra voluntat, el sistema només permet fer el
+        tràmit en castellà, us posem unes breus indicacions en català. Front
+        Republicà apostem per la plena normalització de la llengua catalana com
+        a eina de cohesió.</p>
+      <p><strong>Instruccions per fer un donatiu:</strong></p>
+      <ul>
+        <li>Escolliu la quantitat. Pot ser una quantitat prefixada o bé una
+          quantitat que decidiu vosaltres.</li>
+        <li>Escolliu just a sota de la quantitat si voleu fer el donatiu un sol
+          cop o de forma mensual.</li>
+        <li>Feu click al botó marcat com a "Siguiente"</li>
+        <li>Ompliu les dades del formulari que us apareixerà a continuació. Tots
+          els camps (nom i cognom, correu electrònic, país, adreça, codi postal,
+          ciutat, estat / provincia i NIF) són obligatoris,</li>
+        <li>Marqueu la casella d'acceptació de les condicions d'ús i feu click
+          al botó blau marcat com "Siguiente"</li>
+        <li>Introduïu al formulari següent les dades de la vostra targeta de
+          crèdit.</li>
+        <li>Opcionalment, marqueu la casella si voleu afegir a la vostra donació
+          les despeses de processament addicionals. Si no ho feu, es
+          descomptaran aquests diners de la vostra donació.</li>
+        <li>Feu click al botó blau i haureu donat!</li>
+      </ul>
+    </div>
   </div>
 </div>
