@@ -182,3 +182,8 @@ h1, h2, h3, h4,h5,h6 {
 .section-nav li {
     margin-left: 1em;
 }
+
+.embedded-video {
+    object-fit: cover;
+    height: 315px !important;
+}
