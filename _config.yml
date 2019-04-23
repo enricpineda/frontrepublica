@@ -33,6 +33,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-ical-tag
+  - jekyll-toc
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -20,6 +20,7 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag", "~> 2.5.0"
   gem "jekyll-sitemap", "~> 1.2.0"
   gem "jekyll-ical-tag", git: "https://github.com/imdario/jekyll-ical-tag.git"
+  gem "jekyll-toc", "~> 0.12.1"
 end
 
 gem "tzinfo-data"
